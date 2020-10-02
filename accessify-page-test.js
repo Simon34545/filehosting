@@ -47,7 +47,7 @@ function issuesFilter()
 
 //create problem list
 function createProblemList() {
-	$("head").append("<link href=\"http://accessify.com/tools-and-wizards/accessibility-tools/favelets/quick-page-test/accessify-page-test.css\" rel=\"stylesheet\" type=\"text/css\" />")
+	$("head").append("<link href=\"https://accessify.com/tools-and-wizards/accessibility-tools/favelets/quick-page-test/accessify-page-test.css\" rel=\"stylesheet\" type=\"text/css\" />")
 	$("body").append("<div id=\"problemList\"><h1>Problems were found with this page</h1><form id=\"filter\"></form><p>Click on a link to take you to the problem area</p><ul id=\"problemListUl\"></ul><div id=\"email\"><p><a href=\"mailto:qapt-reqs@accessify.com\">Send feature requests to qapt-reqs@accessify.com</a></p></div></div>")
 	$("#problemList").hide();
 }
